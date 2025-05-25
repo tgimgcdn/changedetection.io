@@ -10,6 +10,7 @@ services:
 
       environment:
       - PLAYWRIGHT_DRIVER_URL=ws://browser-sockpuppet-chrome:3000
+      - PLAYWRIGHT_DRIVER_URL=ws://sockpuppetbrowser:3000
   #    environment:
   #        Default listening port, can also be changed with the -p option (not to be confused with ports: below)
   #      - PORT=5000
